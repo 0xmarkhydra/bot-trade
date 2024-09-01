@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "ccxt": "^4.3.89",
+    "dotenv": "^16.4.5"
+  },
+  "name": "binance-trading-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

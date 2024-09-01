@@ -1,0 +1,52 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      ccxt:
+        specifier: ^4.3.89
+        version: 4.3.89
+      dotenv:
+        specifier: ^16.4.5
+        version: 16.4.5
+
+packages:
+
+  ccxt@4.3.89:
+    resolution: {integrity: sha512-uJZ3okutMdUsbyGJGmEdKiFqiJPVFwNc1jqwBBXWWal/+05Uh4LGVayunVrDYmu5mZsGcht9vNqoV8ZqIq3HEg==}
+    engines: {node: '>=15.0.0'}
+    hasBin: true
+
+  dotenv@16.4.5:
+    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
+    engines: {node: '>=12'}
+
+  ws@8.18.0:
+    resolution: {integrity: sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
+snapshots:
+
+  ccxt@4.3.89:
+    dependencies:
+      ws: 8.18.0
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+
+  dotenv@16.4.5: {}
+
+  ws@8.18.0: {}
